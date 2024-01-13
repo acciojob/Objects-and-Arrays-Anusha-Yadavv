@@ -7,6 +7,15 @@ const person = {
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
+const team=players;
+const team1=[...players];
+const cap1=[...person];
+
+console.log("Team:", team);
+console.log("Team1:", team1);
+console.log("Cap1:", cap1);
+
+
 window.players = players;
 window.person = person;
 window.team = team;
